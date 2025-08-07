@@ -1,2 +1,3 @@
 DaseBados_Clinics/populate.sql linguist-detectable=false
 DaseBados_Clinics/*.csv linguist-detectable=false
+HumanaEthica/*.sql linguist-detectable=false
