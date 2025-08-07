@@ -1,0 +1,29 @@
+syntax = "proto3";
+package pt.ulisboa.tecnico.tuplespaces.centralized.contract;
+
+import "TupleSpaces.proto";
+
+message RequestVoteRequest {
+  int32 client_id = 1;
+  string regex = 2;
+}
+message RequestVoteResponse {
+  bool granted = 1;
+  repeated string matches = 2; //lista de tuplos lock que deram match ao padrão
+}
+
+message ReleaseVoteRequest {
+  int32 client_id = 1;
+}
+message ReleaseVoteResponse {}
+
+service TupleSpacesB2 {
+  rpc put(PutRequest) returns (PutResponse);
+  rpc read(ReadRequest) returns (ReadResponse);
+  rpc take(TakeRequest) returns (TakeResponse);
+  rpc getTupleSpacesState(getTupleSpacesStateRequest) returns (getTupleSpacesStateResponse);
+
+  // Maekawa voting protocol
+  rpc requestVote(RequestVoteRequest) returns (RequestVoteResponse);
+  rpc releaseVote(ReleaseVoteRequest) returns (ReleaseVoteResponse);
+}

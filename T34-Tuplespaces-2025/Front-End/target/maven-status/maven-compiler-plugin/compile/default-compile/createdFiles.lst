@@ -1,0 +1,9 @@
+pt/ulisboa/tecnico/tuplespaces/frontend/ReplicaResource.class
+pt/ulisboa/tecnico/tuplespaces/frontend/Observer.class
+pt/ulisboa/tecnico/tuplespaces/frontend/FrontEndDebug.class
+pt/ulisboa/tecnico/tuplespaces/frontend/FrontEndService.class
+pt/ulisboa/tecnico/tuplespaces/frontend/FrontEndMain.class
+pt/ulisboa/tecnico/tuplespaces/frontend/ResponseCollector.class
+pt/ulisboa/tecnico/tuplespaces/frontend/MetadataInterceptor.class
+pt/ulisboa/tecnico/tuplespaces/frontend/FrontEndServiceImp.class
+pt/ulisboa/tecnico/tuplespaces/frontend/ClientSeqState.class

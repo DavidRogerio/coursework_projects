@@ -1,0 +1,5 @@
+pt/ulisboa/tecnico/tuplespaces/server/ServerDebug.class
+pt/ulisboa/tecnico/tuplespaces/server/TupleSpacesServiceImpl.class
+pt/ulisboa/tecnico/tuplespaces/server/domain/ServerState.class
+pt/ulisboa/tecnico/tuplespaces/server/ServerMetadataInterceptor.class
+pt/ulisboa/tecnico/tuplespaces/server/ServerMain.class
