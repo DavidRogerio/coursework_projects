@@ -1,4 +1,4 @@
-/* iaed-23 - Alexandre Ramos - ist1102598 - project2 - Bus Line Manager */
+/* iaed-23 -  ist1102598 - project2 - Bus Line Manager */
 #include "proj2.h"
 
 /*
